@@ -14,7 +14,6 @@ body{
 
 .image-div{
     width: 45%;
-    /* min-width: 200px; */
     height: 100vh;
     background-image: url("./images/bg-main-desktop.png");
     background-size: cover;
@@ -75,7 +74,6 @@ body{
 
 .card-no{
     color: white;
-    /* font-size: calc(0.5em + 1vw); */
     font-size: 1.5vw;
     margin: 0;
     padding: 0;
@@ -105,14 +103,12 @@ body{
     min-width: 250px;
     display: flex;
     flex-direction: column;
-    /* margin-left: 200px; */
 }
 
 .form input{
     padding: 10px;
     border: 1px solid hsl(270, 3%, 87%);
     border-radius: 5px;
-    margin-bottom: 20px;
     letter-spacing: 1px;
     font-size: 1em;
     min-width: 10px;
@@ -122,6 +118,7 @@ body{
     font-size: 0.7em;
     margin-bottom: 5px;
     letter-spacing: 1px;
+    margin-top: 20px;
 }
 
 .submit-form{
